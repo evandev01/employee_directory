@@ -1,14 +1,16 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+import * as API from './utils/API';
+import EmployeeDirectory from './pages/EmployeeDirectory';
+import Header from './components/Header';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Employee Directory</h1>
-      </header>
-
+  return(
+    <div>
+      <Header />
+      {/* <SearchForm /> */}
+      {/* <SearchResultContainer /> */}
+      <EmployeeDirectory />
     </div>
-  );
-}
-
+  )
+  }
 export default App;
