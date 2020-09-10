@@ -7,3 +7,5 @@ export default {
       .get("https://randomuser.me/api/?results=25")
   }
 };
+
+
