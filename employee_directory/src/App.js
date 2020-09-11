@@ -1,18 +1,15 @@
-import React, {useState, useEffect} from 'react';
-import * as API from './utils/API';
+import React from 'react';
+import './App.css';
 import EmployeeDirectory from './pages/EmployeeDirectory';
 import Header from './components/Header';
-// import SearchForm from './components/SearchForm';
-// import SearchResults from './components/SearchResults';
 
+//Renders pages with components =======
 function App() {
-  return(
+  return (
     <div>
       <Header />
-      {/* <SearchForm />
-      <SearchResults /> */}
       <EmployeeDirectory />
     </div>
   )
-  }
+};
 export default App;

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+body {
+    background-image: url(../src/assets/bkgd1.jpg);
+    color: rgb(216, 213, 213);
+    font-size: 20px;
+}
+
+.Card {
+    /* width: 100%;
+    background-color:rgba(175, 175, 175, 0.53); */
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#info {
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    /* width: auto; */
+    background-color: rgba(0, 0, 0, 0.228);
+    font-family: 'Heebo', sans-serif;
+    font-size: 22px;
+}
+
+#info-email {
+    background-color: rgba(0, 0, 0, 0.228);
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+}
+
+#info-dob {
+    background-color: rgba(0, 0, 0, 0.228);
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+}
+
+.header-title {
+    display: block;
+    height: 100px;
+    /* text-align: center; */
+    /* font-size: 50px; */
+}
+
+.header-title h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Heebo', sans-serif;
+    margin-top: 2%;
+}
+
+.Search {
+    color: rgb(7, 42, 131);
+}
+
+.searchForm {
+    color: black;
+}
